@@ -1,12 +1,10 @@
 # JPacman
 
-[![Build Status](https://travis-ci.com/SERG-Delft/jpacman.svg?branch=master)](https://travis-ci.com/SERG-Delft/jpacman)
-
-![Build Status](https://github.com/<your GitHub account name>/jpacman/actions/workflows/myworkflow.yml/badge.svg)
-
+![Build Status](https://github.com/Blue-Cheesecake/jpacman/actions/workflows/myworkflow.yml/badge.svg) 
 ![Coverage](.github/badges/jacoco.svg)
-
 ![Branches](.github/badges/branches.svg)
+![image](https://github.com/Blue-Cheesecake/jpacman/assets/61656182/94133dd9-11b0-46f6-b9cc-28b29017e29e)
+
 
 ## About
 
