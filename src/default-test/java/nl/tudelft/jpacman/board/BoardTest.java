@@ -23,6 +23,10 @@ class BoardTest {
     };
     private final Board board = new Board(grid);
 
+
+    /**
+     * Verify that the board is invariant
+     */
     @Test
     void testBoard() {
         final Square[][] grid = {{new BasicSquare()}};
@@ -30,6 +34,9 @@ class BoardTest {
         assertThat(board1.invariant()).isEqualTo(true);
     }
 
+    /**
+     * Verify that square is accessible to unit
+     */
     @Test
     void testIsAccessibleTo() {
         final Square square = new BasicSquare();
@@ -38,6 +45,9 @@ class BoardTest {
         assertThat(square.isAccessibleTo(unit)).isEqualTo(true);
     }
 
+    /**
+     * Verify getting square from board
+     */
     @Test
     void testSquareAt() {
         final Square[][] grid = {{new BasicSquare(), null}};
