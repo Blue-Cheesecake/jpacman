@@ -52,7 +52,7 @@ class BoardTest {
     void testSquareAt() {
         final Square[][] grid = {{new BasicSquare(), null}};
         final Board board1 = new Board(grid);
-        board1.squareAt(0, 1);
+        assertThat(board1.squareAt(0, 1)).isEqualTo(null);
     }
 
 
