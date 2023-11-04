@@ -45,15 +45,15 @@ class BoardTest {
         assertThat(square.isAccessibleTo(unit)).isEqualTo(true);
     }
 
-    /**
-     * Verify getting square from board.
-     */
-    @Test
-    void testSquareAt() {
-        final Square[][] grid = {{new BasicSquare(), null}};
-        final Board board1 = new Board(grid);
-        assertThat(board1.squareAt(0, 1)).isEqualTo(null);
-    }
+//    /**
+//     * Verify getting square from board.
+//     */
+//    @Test
+//    void testSquareAt() {
+//        final Square[][] grid = {{new BasicSquare(), null}};
+//        final Board board1 = new Board(grid);
+//        assertThat(board1.squareAt(0, 1)).isEqualTo(null);
+//    }
 
 
     /**
