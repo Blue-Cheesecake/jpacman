@@ -25,7 +25,7 @@ class BoardTest {
 
 
     /**
-     * Verify that the board is invariant
+     * Verify that the board is invariant.
      */
     @Test
     void testBoard() {
@@ -35,7 +35,7 @@ class BoardTest {
     }
 
     /**
-     * Verify that square is accessible to unit
+     * Verify that square is accessible to unit.
      */
     @Test
     void testIsAccessibleTo() {
@@ -46,7 +46,7 @@ class BoardTest {
     }
 
     /**
-     * Verify getting square from board
+     * Verify getting square from board.
      */
     @Test
     void testSquareAt() {
